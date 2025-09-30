@@ -14,6 +14,7 @@ namespace Challenge_6
             Console.Write("Enter nitrate level: ");
             float nitrate = Convert.ToSingle(Console.ReadLine());
 
+            // The correct dose is found out
             string dose = "";
             if (nitrate > 10)
             {
@@ -35,6 +36,7 @@ namespace Challenge_6
                 dose = "0.5ml";
             }
 
+            // The value is printed to the user
             Console.WriteLine($"The dose is: {dose}");
         }
     }
