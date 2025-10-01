@@ -61,9 +61,6 @@ namespace Challenge_8
                     Console.WriteLine($"You moved on. Your health remained at {health}");
                 }
             }
-
-            // The final health is displayed
-            Console.WriteLine($"Your final health is {health}.");
         }
     }
 }
